@@ -1,0 +1,25 @@
+# Large model files - use Git LFS or external storage
+*.gguf
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Node modules and dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+dist/
+build/
